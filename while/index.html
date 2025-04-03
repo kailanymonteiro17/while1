@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula while</title>
+</head>
+<body>
+    <h1>Aula while</h1>
+    <script>
+        //criar variáveis
+        //tipo texto - STRING
+        //tipo inteiro - INT
+        //tipo real - FLOAT
+        while (true) {
+        var usuario = prompt("digite seu usuario")
+        var senha = parseInt(prompt("digite a sua senha"))
+
+        if(usuario == "kailany@kailany.com" && senha == "1234") {
+            window.location.href = "/page.html"
+            break;
+        } else {
+            alert("Usuario/senha incorretos! tente novamente!")
+        }
+    } 
+    </script>
+</body>
+</html>
